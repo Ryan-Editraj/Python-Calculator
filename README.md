@@ -1,2 +1,2 @@
 # Python-Calculator
-A basic python calculator
+A basic python calculator.

@@ -1,19 +1,18 @@
-print('Helloworld')
-print('Python calculator')
+import math
 
-num1 = int(input('>'))
-operator = input('>')
-num2 = int(input('>'))
+# Define the four basic arithmetic functions
+def add(num1, num2):
+    return num1 + num2
 
+def subtract(num1, num2):
+    return num1 - num2
 
-if operator == '+':
-  print(num1 + num2)
-  
-if operator == '-':
-  print(num1 - num2)
-  
-if operator == '/':
-  print(num1 / num2)
-  
-if operator == '*':
-  print(num1 * num2)
+def multiply(num1, num2):
+    return num1 * num2
+
+def divide(num1, num2):
+    return num1 / num2
+
+# Define additional mathematical functions
+def sin(x):
+    return math.sin(x)

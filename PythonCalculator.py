@@ -22,3 +22,32 @@ def cos(x):
 
 def tan(x):
     return math.tan(x)
+
+
+def log(x):
+    return math.log(x)
+
+def exp(x):
+    return math.exp(x)
+
+# Prompt the user for input
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+operator = input("Enter the operator (+, -, *, /, sin, cos, tan, log, exp): ")
+
+# Perform the calculation
+if operator == "+":
+    result = add(num1, num2)
+elif operator == "-":
+    result = subtract(num1, num2)
+elif operator == "*":
+
+
+elif operator == "/":
+    result = divide(num1, num2)
+elif operator == "sin":
+    result = sin(num1)
+elif operator == "cos":
+    result = cos(num1)
+elif operator == "tan":
+    result = tan(num1)

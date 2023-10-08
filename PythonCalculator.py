@@ -51,3 +51,14 @@ elif operator == "cos":
     result = cos(num1)
 elif operator == "tan":
     result = tan(num1)
+
+elif operator == "log":
+    result = log(num1)
+elif operator == "exp":
+    result = exp(num1)
+else:
+    print("Invalid operator.")
+    exit()
+
+# Display the result
+print("The result is:", result)
